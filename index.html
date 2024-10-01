@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JSON Data Fetch</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        
+        <!-- Right Side  -->
+        <section >
+            <div class="container mx-auto mt-8" >
+
+                <div class="flex mx-auto ">
+                    <!-- left side -->
+                    <div class="w-1/5 fixed ">
+                        <button onclick="userData()" class="btn btn-primary"> User Data </button>
+                        <ul id="user-list">
+                            
+                        </ul>
+                    </div>
+
+
+                    <div class="bg-blue-800 p-4 rounded-lg w-4/5 ml-56">
+                        <h3>Display all post</h3>
+                        <div id="post-data" class="" >
+                        
+                        </div>
+                
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+
+
+        <script src="json.js"></script>
+    </body>
+</html>
+
